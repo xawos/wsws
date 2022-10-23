@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Serial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <br><div id="serialResults">WebSerial</div><br>
+        <br><div id="wsResults">WebSocket</div><br>
+        <br><div class="wscontrols">
+            <input type="text" id="wscmdLine" value="ws://localhost">
+            <button id="wscmdButton" onclick="connectWs()">Connect</button>
+            <button id="wsclearButton" onclick="wsResultsDiv.innerHTML = 'WebSocket';">Clear</button>
+        </div><br>
+        <br><div class="controls">
+            <input type="text" id="cmdLine" value="115200">
+            <button id="cmdButton" onclick="connectSerial()">Connect</button>
+            <button id="clearButton" onclick="serialResultsDiv.innerHTML = 'WebSerial';">Clear</button>
+        </div><br>
+        <script src="index.js"></script>
+    </body>
+</html>

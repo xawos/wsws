@@ -1,0 +1,130 @@
+* {
+    background-color: rgb(49, 49, 49);
+    font-family: Verdana, sans-serif;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+button {
+    background-color: dimgray;
+}
+.controls {
+    position: absolute;
+    width: 97%;
+    height: 5%;
+    bottom: 2%;
+    right: 1%;
+    transition-duration: 2s;
+}
+.wscontrols {
+    position: absolute;
+    width: 97%;
+    height: 5%;
+    bottom: 7%;
+    right: 1%;
+    transition-duration: 2s;
+}
+#cmdButton {
+    width: 12%;
+    height: 100%;
+    font-size: large;
+    margin-right: 10px;
+    transform: translate(-5px);
+    cursor: pointer;
+}
+#wscmdButton {
+    width: 12%;
+    height: 100%;
+    font-size: large;
+    margin-right: 10px;
+    transform: translate(-5px);
+    cursor: pointer;
+}
+#cmdButton:hover {
+    color: chartreuse;
+}
+#wscmdButton:hover {
+    color: chartreuse;
+}
+#clearButton {
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    font-size: large;
+    cursor: pointer;
+}
+#wsclearButton {
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    font-size: large;
+    cursor: pointer;
+}
+#clearButton:hover {
+    color: mediumturquoise;
+}
+#wsclearButton:hover {
+    color: mediumturquoise;
+}
+#cmdLine {
+    width: 70%;
+    font-size: large;
+    height: 80%;
+    transform: translate(0, -1px);
+    color: whitesmoke;
+    background-color: dimgrey;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#wscmdLine {
+    width: 70%;
+    font-size: large;
+    height: 80%;
+    transform: translate(0, -1px);
+    color: whitesmoke;
+    background-color: dimgrey;
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#cmdLine:hover {
+    background-color: grey;
+}
+#wscmdLine:hover {
+    background-color: grey;
+}
+::placeholder {
+    color: whitesmoke;
+}
+#wsResults {
+    font-family: monospace;
+    white-space: pre;
+    position: absolute;
+    top: 1%;
+    right: 0;
+    left: 0;
+    bottom: 56%;
+    border-style: solid;
+    background-color: rgb(88, 92, 92);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: large;
+}
+#serialResults {
+    font-family: monospace;
+    white-space: pre;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    bottom: 13%;
+    border-style: solid;
+    background-color: rgb(88, 92, 92);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: large;
+}
