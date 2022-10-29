@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Serial</title>
+    <title>Gong Ringer</title>
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
@@ -15,10 +15,11 @@
             <button id="wsclearButton" onclick="wsResultsDiv.innerHTML = 'WebSocket';">Clear</button>
         </div><br>
         <br><div class="controls">
-            <input type="text" id="cmdLine" value="115200">
+            <input type="text" id="cmdLine" value="9600">
             <button id="cmdButton" onclick="connectSerial()">Connect</button>
             <button id="clearButton" onclick="serialResultsDiv.innerHTML = 'WebSerial';">Clear</button>
         </div><br>
-        <script src="index.js"></script>
+        <script src="webserial.js"></script>
+        <script src="websocket.js"></script>
     </body>
 </html>

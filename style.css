@@ -112,6 +112,7 @@ button {
     margin-right: 30px;
     padding: 10px;
     font-size: large;
+    overflow: auto;
 }
 #serialResults {
     font-family: monospace;
@@ -127,4 +128,5 @@ button {
     margin-right: 30px;
     padding: 10px;
     font-size: large;
+    overflow: scroll;
 }
